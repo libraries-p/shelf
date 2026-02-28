@@ -169,6 +169,11 @@ public class Shelf {
         return vault;
     }
 
+    /** Returns the underlying CachingProvider. */
+    public CachingProvider cache() {
+        return cache;
+    }
+
     private String collectionPrefix(String collection) {
         return collection + "::";
     }
