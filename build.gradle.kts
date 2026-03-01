@@ -14,7 +14,7 @@ dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 
-    implementation("com.github.libraries-p:persistence:24ca60cf5e")
+    implementation("com.github.libraries-p:persistence:7327cf6b91")
     implementation("com.github.libraries-p:services:3585e64ee0")
 
     compileOnly("org.projectlombok:lombok:1.18.36")
